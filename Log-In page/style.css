@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ubuntu", sans-serif;
+}
+h1 {
+  color: darkorange;
+  margin: 0;
+  padding: 20px;
+  font-weight: 900;
+  font-family: "ubuntu", sans-serif;
+  text-shadow: 1px 1px lightslategrey;
+}
+.navbar h2 {
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  /* text-shadow: 1px 1px lightgray; */
+  color: darkslategrey;
+  box-shadow: 1px 1px lightgrey;
+}
+.navbar h2:hover {
+  background-color: #ff9b50;
+  cursor: pointer;
+  margin-right: -5px;
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: #B4B4B3;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2); */
+}
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-right: 5%;
+}
+.navbar ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 5px;
+  color: darkslategrey;
+}
+.navbar ul li:hover {
+  cursor: pointer;
+  color: #ff7105;
+}
+
+.main-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: lightyellow; */
+  width: 800px;
+  height: 400px;
+  border-radius: 5%;
+  padding: 5%;
+  /* margin-top: 3%; */
+  margin-left: 15%;
+}
+.left-box {
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  border-radius: 5%;
+  justify-content: center;
+}
+#username {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ff9b50;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "ubuntu", sans-serif;
+  color: darkslategrey;
+}
+#password {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ff9b50;
+  margin-bottom: 10%;
+  border-radius: 25px;
+  font-size: 18px;
+  font-family: "ubuntu", sans-serif;
+  color: darkslategrey;
+}
+h2 {
+  color: #ff9b50;
+}
+.checkbox {
+  display: flex;
+  font-size: small;
+  align-items: center;
+  color: darkslategrey;
+  /* justify-content: space-between; */
+}
+.forgot {
+  margin-left: 70px;
+  text-decoration: none;
+  color: darkslategray;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit-btn button {
+  border: 1px solid;
+  height: 50px;
+  width: 120px;
+  background-color: #ff7105;
+  color: white;
+  margin-top: 10%;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "ubuntu", sans-serif;
+}
+.submit-btn button:hover {
+  background-color: white;
+  color: #ff7105;
+  cursor: pointer;
+}
+img {
+  width: 500px;
+  float: right;
+}
