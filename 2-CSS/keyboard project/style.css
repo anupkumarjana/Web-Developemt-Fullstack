@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container{
+    display: grid;
+    width: 1200px;
+    height: 500px;
+    border: 1px solid bisque;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(19,10px);
+}
